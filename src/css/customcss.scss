@@ -1,0 +1,63 @@
+body {
+.navbar-default {
+    background-color: #000!important;
+    color:#fff;
+  }
+.jumbotron  {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+background: #3b679e; /* Old browsers */
+background: -moz-linear-gradient(top,  #3b679e 0%, #2b88d9 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+  }
+.details {border: 2px solid #ccc;
+    padding: 20px;
+    box-shadow: 10px 10px #ccc;
+  }
+.btn-success, .btn-danger {
+    margin-right: 5px;
+  }
+.well {
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  border : 2px solid seagreen;
+}
+.item-wrapper {
+  border : 2px solid seagreen;
+  padding : 50px;
+  border-radius: 5px;
+}
+img {
+  //padding: 50px;
+//  background-color: green;
+  transition: transform .2s; /* Animation */
+//  width: 200px;
+//  height: 200px;
+  margin: 0 auto;
+  cursor:zoom-in;
+}
+.thumbnail img {
+  margin-top: 20px;
+}
+
+img:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+table {
+  margin-top: 20px;
+  border:1px solid #000;
+  box-shadow: 10px 10px #ccc;
+}
+tbody{
+  tr{
+    td {
+      text-align: left!important;
+      border-collapse: collapse!important;
+    }
+  }
+}
+}
